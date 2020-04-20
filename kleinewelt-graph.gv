@@ -1,0 +1,127 @@
+digraph G {
+	graph [layout=dot rankdir=LR bgcolor="gray14"]
+
+// Knoten
+node[shape="box" style ="filled" fillcolor="royalblue1"]
+
+01 [label = "Weltkugel"] ;
+02 [label = "Blumenbeet"] ;
+03 [label = "Kleinstadt"];
+04 [label = "Parkhaus"] ;
+05 [label = "Demonstration"] ;
+06 [label = "Musiker"] ;
+07 [label = "Bier"] ;
+08 [label = "CafÃ©"] ;
+09 [label = "Wanderweg"] ;
+10 [label = "Gesicht"] ;
+11 [label = "Plattenspieler"] ;
+12 [label = "Himmelblick"] ;
+13 [label = "StÃ¼hle"] ;
+14 [label = "Polizei"] ;
+15 [label = "Kirchturm_GIF"] ;
+16 [label = "Bahnhof"] ;
+17 [label = "Autobahn"] ;
+18 [label = "Bushaltestelle"] ;
+19 [label = "Opel"] ;
+20 [label = "Schriftsteller"] ;
+21 [label = "ErzÃ¤hlung"] ;
+22 [label = "SchÃ¤del"] ;
+23 [label = "Klo"] ;
+24 [label = "Camping_GIF"] ;
+25 [label = "Drehtabak"] ;
+26 [label = "Leergut"] ;
+27 [label = "See"] ;
+28 [label = "Tagebau"] ;
+29 [label = "Trunkenheit"];
+30 [label = "Kneipe"] ;
+31 [label = "Schirm"] ;
+32 [label = "BrillentrÃ¤ger"] ;
+33 [label = "Schmidt"] ;
+34 [label = "VHS"] ;
+35 [label = "Autobier"] ;
+36 [label = "Motorflieger"] ;
+37 [label = "McDonalds"] ;
+38 [label = "Schlossbrauerei"] ;
+39 [label = "HÃ¤user"] ;
+40 [label = "Fiat"] ;
+41 [label = "Motorhaube"] ;
+42 [label = "SÃ¶llner"] ;
+43 [label = "AKW_GIF"] ;
+44 [label = "ALDI"] ;
+45 [label = "Theater"] ;
+46 [label = "Laterne"] ;
+47 [label = "MÃ¼ll"] ;
+48 [label = "HÃ¼te"] ;
+49 [label = "Grab"] ;
+50 [label = "Plattenbau_GIF"] ;
+51 [label = "Herrenkleidung"] ;
+52 [label = "Beer"] ;
+53 [label = "TV"] ;
+54 [label = "Osterhase_GIF"];
+
+
+
+// Kanten
+edge[color="darkorange"]
+01 -> 02
+02 -> {03 04 05 06 08 09}
+03 -> {04 08 10 15}
+04 -> {16 17 18}
+05 -> {14 16 20}
+06 -> {10 11 22 24}
+07 -> {25 26 28 32}
+08 -> {04 06 33 36}
+09 -> {37 39 40}
+10 -> {06 11 38}
+11 -> {10 08 35}
+12 -> {06 45}
+13 -> {08 32}
+14 -> {08 16 33 48}
+15 -> {08 13 33 53}
+16 -> {12 20 21 26 43} 
+17 -> {16 35 40} 
+18 -> {07 16 20 26 27 38 40 53} 
+19 -> {16 18 54} 
+20 -> {14 16 53}
+21 -> {18 25 29 32} 
+22 -> {10 24 49}
+23 -> {28 35 45}
+24 -> {11 12 26 28 39 53}
+25 -> {16 17 21 43}
+26 -> {12 38 46 50}
+27 -> {07 16 24 26 38 53}
+28 -> {10 23 36}
+29 -> {07 26 30}
+30 -> {07 15 28 29} 
+31 -> {42 48 50 51 52 53 } 
+32 -> {24 25 43}
+33 -> {37 38 53}
+34 -> {06 12 17 29 39 45 50} 
+35 -> {06 12 21 26 27 32 38 40 41}
+36 -> {15, 22, 25}
+37 -> {06 17 35 40 47}
+38 -> {16 24 53}
+39 -> {10 11 34 50}
+40 -> {20 25 35 44} 
+41 -> {17 19 20 25 36 40}
+42 -> {31 52 53 54}
+43 -> {12 15 21 26 27 33 38} 
+44 -> {19 48 51 54}
+45 -> {11 18  28 50}
+46 -> {16 19}
+47 -> {07 48}
+48 -> {17 31 52 53 54}
+49 -> {26 27 45}
+50 -> {18 23 28 41 45}
+51 -> {42 48} 
+52 -> {15 33 42 48 51}
+53 -> {04 34 40 41 48}
+54 -> {31 34 42 48 51 52}
+
+
+
+
+
+
+// Ende der Daten 
+}
