@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:premis="info:lc/xmlns/premis-v2" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd">
+  <!-- Metadaten zum XML-Dokument -->
+  <mets:metsHdr CREATEDATE="2020-04-21T11:40:33.667050"> 
+    <mets:agent ROLE="CREATOR" TYPE="INDIVIDUAL">
+      <mets:name>Goeggelmann, Michael</mets:name>
+    </mets:agent>
+  </mets:metsHdr>
+  <!-- Deskriptive Metadaten zu [kleine welt] -->
+  <mets:dmdSec ID="dmd_01">
+    <!-- Verwendung von MODS innerhalb der METS-Sektion 'dmdSec' -->
+    <mets:mdWrap MDTYPE="MODS">
+      <mets:xmlData>
+        <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+          <!-- Titel -->
+          <mods:titleInfo>
+            <mods:title lang="ger">[kleine welt]</mods:title>
+            <mods:title lang="eng">[small world]</mods:title>
+          </mods:titleInfo>
+          <!-- Autor -->
+          <mods:name type="personal" authorityURI="http://www.dnb.de/gnd" valueURI="http://d-nb.info/gnd/130440108">
+            <mods:namePart>Thalhofer, Florian</mods:namePart>
+            <mods:role>
+              <mods:roleTerm type="text">creator</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <!-- Erscheinungsjahr -->
+          <mods:originInfo>
+            <mods:dateCreated encoding="iso8601">1997</mods:dateCreated>
+          </mods:originInfo>
+          <!-- Herkunft der Ressource -->
+          <mods:location> 
+            <mods:url displayLabel="liveweb">http://www.kleinewelt.com/</mods:url>
+          </mods:location>
+          <!-- Physische Beschreibung der Datei -->
+          <mods:physicalDescription>
+            <!-- Physische Form -->
+            <mods:form authority="marcform">electronic</mods:form>
+            <!-- Methode, nach der die Datei digital vorliegt -->
+            <mods:digitalOrigin>born digital</mods:digitalOrigin>
+          </mods:physicalDescription>
+          <!-- Abstracts vom Autor und dritten Personen -->
+          <mods:abstract type="descriptionByAuthor">54 little stories on what it is like to grow up in a small town.</mods:abstract>
+          <mods:abstract type="reflectiveDescription">Kleine Welt ist eine Geschichte, aber eine ohne Plot, ohne Hauptcharakter und ohne Bewegung. Thalhofer ist der Führer, der Erzähler, und selbst wenn einige ausgewählte Texte in ihrer Gänze auf dem Bildschorm erscheinen, drängt er sich nicht in den Vordergrund, wie es sich für einen Geschichtenerzähler geziemt. Er lässt Freunde, Barkeeper, Stammgäste und den Wachmann des Parkhauses sprechen und erzählt Geschichten von Einkaufsläden, Bars und den Gegenständen und Menschen, die sich darin befinden. Thalhofer unternimmt keinen Versuch die Vergangenheit wieder aufleben zu lassen, doch trotzdem dreht sich alles um die Zeit die er als Jugendlicher in Schwandorf verbracht und von der großen Welt da draußen geträumt hat. Diese große Welt dringe ein, als die Regierung in den frühen achtziger Jahren ein Atomkraftwerk bauen will und Aktivisten und Polizeieinheiten aus dem ganzen Land in die Stadt kommen. - van Weelden, Dirk (o.J.): The Storyteller, his village and his irony, in: Mediamatic 9#4, online unter: http://www.mediamatic.nl/magazine/9_4/weelden_kleinewelt/weelden_1gb.html</mods:abstract>
+          <!-- Charakteristika der dig. Ressource -->
+          <mods:typeOfResource>mixed material</mods:typeOfResource>
+          <mods:genre authority="marcgt">short story</mods:genre>
+          <!-- Sprachausgaben -->
+          <mods:language>
+            <mods:languageTerm type="code" authority="iso639-2b">ger</mods:languageTerm>
+            <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+          </mods:language>
+        </mods:mods>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <!-- Administrative Metadaten zu [kleine welt] -->
+  <mets:amdSec>
+    <mets:techMD ID="amd_01">
+      <!-- Verwendung von PREMIS innerhalb der METS-Sektion 'amdSec' -->
+      <mets:mdWrap MDTYPE="PREMIS:OBJECT">
+        <mets:xmlData>
+          <premis:object xsi:schemaLocation="info:lc/xmlns/premis-v2 http://www.loc.gov/standards/premis/v2/premis-v2-3.xsd" xsi:type="premis:file">
+            <!-- Erstellung einer eindeutigen Objekt-ID im UUID-Format -->
+            <premis:objectIdentifier>
+              <premis:objectIdentifierType>UUID</premis:objectIdentifierType>
+              <premis:objectIdentifierValue>bd82b928-83be-11ea-bc55-0242ac130003</premis:objectIdentifierValue>
+            </premis:objectIdentifier>
+            <premis:objectCharacteristics>
+              <!-- Angabe zur Größe des Objekts (ausgelesen mit 'Exiftool') -->
+              <premis:compositionLevel>0</premis:compositionLevel>
+              <premis:size>44544</premis:size>
+              <!-- Angaben zum Dateiformat (ausgelesen mit 'Exiftool') -->
+              <premis:format>
+                <premis:formatDesignation>
+                  <premis:formatName>"WIN 32 EXE"</premis:formatName>
+                </premis:formatDesignation>
+                <premis:formatNote>application/octet-stream/Executable application</premis:formatNote>
+              </premis:format>
+            </premis:objectCharacteristics>
+            <!-- Angaben zum Pfad, in dem das Objekt liegt -->
+            <premis:storage>
+              <premis:contentLocation>
+                <premis:contentLocationType>Path</premis:contentLocationType>
+                <premis:contentLocationValue>data/kleineWelt.exe</premis:contentLocationValue>
+              </premis:contentLocation>
+            </premis:storage>
+            <!-- Software/Hardware-Kombinationen, die das Objekt rendern können und getestet wurden -->
+            <premis:environment>
+              <premis:environmentCharacteristic>known to work</premis:environmentCharacteristic>
+              <premis:environmentPurpose>render</premis:environmentPurpose>
+              <premis:software>
+                <premis:swName>Adobe Projector</premis:swName>
+                <premis:swVersion>12.0.1r122</premis:swVersion>
+                <premis:swType>renderer</premis:swType>
+              </premis:software>
+              <premis:hardware>
+                <premis:hwName>Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz 2.00 GHz</premis:hwName>
+                <premis:hwType>Processor</premis:hwType>
+              </premis:hardware>
+              <premis:hardware>
+                <premis:hwName>Intel(R) UHD Graphics 620</premis:hwName>
+                <premis:hwType>Integrated graphics processor</premis:hwType>
+              </premis:hardware>
+              <premis:hardware>
+                <premis:hwName>Intel(R) Display-Audio</premis:hwName>
+                <premis:hwType>Integrated Sound Card</premis:hwType>
+              </premis:hardware>
+            </premis:environment>
+          </premis:object>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:techMD>
+    <!-- Angaben zum Rechteinhaber/ Rechtedeklaration -->
+    <mets:rightsMD ID="rmd_01">
+      <mets:mdWrap MDTYPE="MODS">
+        <mets:xmlData>
+          <mods:mods version="3.5">
+            <mods:accessCondition type="restriction on access">Recent</mods:accessCondition>
+            <mods:accessCondition type="use and reproduction">Thalhofer, Florian</mods:accessCondition>
+          </mods:mods>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:rightsMD>
+  </mets:amdSec>
+  <!-- Übersicht aller zugehörigen Files, hier nur eines -->
+  <mets:fileSec>
+    <mets:fileGrp>
+      <mets:file ID="bd82b928-83be-11ea-bc55-0242ac130003" MIMETYPE="application/octet-stream" SIZE="44544">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="Path" xlink:href="data/kleineWelt.exe"/>
+      </mets:file>
+    </mets:fileGrp>
+  </mets:fileSec>
+  <!-- Beschreibt die hierarchische Struktur der gesamten Ablage, verknüpft alle Objekte miteinander (hier nur 1 Objekt)-->
+  <mets:structMap ID="_as8542h9-bc2a-4p05-8341-941657d01e07">
+    <mets:div>
+      <mets:div ADMID="amd_01">
+        <mets:fptr FILEID="bd82b928-83be-11ea-bc55-0242ac130003"/>
+      </mets:div>
+      <!-- Hier würden weitere Objekte hinzugefügt werden. Denkbar wären Screenshots, die Visualisierung etc. -->
+      </mets:div>
+    </mets:div>
+  </mets:structMap>
+</mets:mets>
